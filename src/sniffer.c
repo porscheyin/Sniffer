@@ -12,7 +12,8 @@
 #include "sniffer.h"
 #include "inet_hdr.h"
 
-static char hw_addr_str[32] = {0}; // Buffer for hardware address.
+/* Buffer for hardware address. */
+static char hw_addr_str[32] = {0};
 
 /* Create a raw socket. */
 int rsock_create(const int protocol)
