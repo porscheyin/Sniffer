@@ -72,6 +72,7 @@ void parse_icmp_packet(sniffer *sniffer);
 /* Get readable MAC address. */
 char *get_hw_addr_str(char *hw_addr_str, const unsigned char *ptr);
 
+/* Get readable IP address from integer. */
 char *get_ip_addr_str(const unsigned long ip);
 
 #endif
